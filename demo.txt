@@ -1,0 +1,16 @@
+"5 ""6""", 7"
+0123456789012
+i=0 	-> flag_1 true
+i=1 	-> '5' token thêm vào 
+i=2 	-> ' ' token thêm vào
+i=3	-> '"' flag_2 true 
+	-> '"' token thêm vào
+i=4 	-> '"' flag_2 false
+	-> di chuyển tiếp ko token 
+i=5 	-> '6' token thêm vào
+i=6 	-> '"' token thêm vào
+	-> flag_2 true
+i=7	-> flag_2 false
+i=8 	-> flag_2 true
+	-> '"' token thêm vào
+	
